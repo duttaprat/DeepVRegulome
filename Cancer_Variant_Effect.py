@@ -29,8 +29,8 @@ data_source = st.sidebar.selectbox("Genomic Analysis Tools", ["CaVEMan", "Sanger
 file_paths = {
     "Brain": {
         "Splice Sites": {
-            "CaVEMan": "/data/projects/GDC_Cancer_Wise/New_data/Brain/Generated_files/Postprocessed_files/CaVEMan.xlsx",
-            "Sanger": "/data/projects/GDC_Cancer_Wise/New_data/Brain/Generated_files/Postprocessed_files/Sanger_details.xlsx"
+            "CaVEMan": "/data/Brain/Generated_files/DNABERT_Output_files/CaVEMan.xlsx",
+            "Sanger": "/data/Brain/Generated_files/DNABERT_Output_files/Sanger.xlsx"
         },
         # Add paths for Promoter Regions and TFBS Models if available
     },
@@ -39,8 +39,8 @@ file_paths = {
 
 # Get the selected file path
 file_path = file_paths.get(cancer_type, {}).get(analysis_type, {}).get(data_source, None)
-clinical_file_path = f"/data/projects/GDC_Cancer_Wise/New_data/{cancer_type}/Generated_files/Postprocessed_files/patient_clinical_updated.tsv"
-clinvar_details_path = f"/data/projects/GDC_Cancer_Wise/New_data/Brain/Generated_files/Postprocessed_files/{data_source}_merged_variant_clinvar.tsv"
+clinical_file_path = f"/data/{cancer_type}/Clinical_files/patient_clinical_updated.tsv"
+clinvar_details_path = f"/data/{cancer_type}/Clinical_files/{data_source}_merged_variant_clinvar.tsv"
 
 
 
