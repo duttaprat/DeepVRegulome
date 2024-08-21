@@ -29,8 +29,8 @@ data_source = st.sidebar.selectbox("Genomic Analysis Tools", ["CaVEMan", "Sanger
 file_paths = {
     "Brain": {
         "Splice Sites": {
-            "CaVEMan": "data/Brain/Generated_files/DNABERT_Output_files/CaVEMan.xlsx",
-            "Sanger": "data/Brain/Generated_files/DNABERT_Output_files/Sanger.xlsx"
+            "CaVEMan": "data/Brain/DNABERT_Output_files/CaVEMan.xlsx",
+            "Sanger": "data/Brain/DNABERT_Output_files/Sanger.xlsx"
         },
         # Add paths for Promoter Regions and TFBS Models if available
     },
