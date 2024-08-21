@@ -9,7 +9,10 @@ from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode, DataReturnMode
 import scipy.stats as stats
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(
+    layout="wide",
+    page_title="Predicting Somatic Variant Effect using DNABERT"
+)
 # Title of the app
 st.title("Predicting Genomic Variant Effect on Regulatory Elements using DNABERT for GDC Cancer Patients")
 
