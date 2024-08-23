@@ -367,6 +367,7 @@ if df_variants_frequency is not None and df_intersect_with_dbsnp is not None and
         df_variants_frequency_without_patient_ids = df_variants_frequency.drop(columns=['patient_ids'])
     else:
         df_variants_frequency_without_patient_ids = df_variants_frequency
+    df_variants_frequency_without_patient_ids.index += 1
     st.dataframe(df_variants_frequency_without_patient_ids)
 
 
@@ -399,6 +400,7 @@ if df_variants_frequency is not None and df_intersect_with_dbsnp is not None and
 
     The table below displays the detailed information for the genomic variants that affect the selected splice site type ('{selected_site}'). This includes the chromosome location, nucleotide changes, and the predicted impact on splice site function.
     """)
+    filtered_data.drop(columns=['patient_ids']) +=1
     st.dataframe(filtered_data.drop(columns=['patient_ids']))
     # st.dataframe(filtered_clinvar)
 
