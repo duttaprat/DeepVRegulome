@@ -14,13 +14,14 @@ st.set_page_config(
     page_title="Predicting Somatic Variant Effect using DNABERT"
 )
 # Title of the app
-st.title("Predicting Genomic Variant Effect on Regulatory Elements using DNABERT for GDC Cancer Patients")
+st.title("Predicting the Functional Impact of Somatic Mutations in Regulatory Elements in Brain Cancer Using DNABERT and DNABERT-2 ")
 
 # Sidebar for selecting analysis parameters
 st.sidebar.header("Select Analysis Parameters")
 
 # Cancer type selection
-cancer_type = st.sidebar.selectbox("Select Cancer Type", ["Brain", "Lung", "Breast"])
+#cancer_type = st.sidebar.selectbox("Select Cancer Type", ["Brain", "Lung", "Breast"])
+cancer_type = "Brain"
 
 # Analysis type selection
 analysis_type = st.sidebar.selectbox("Genomic Regulatory Elements", ["Splice Sites", "Promoter Regions", "TFBS Models"])
@@ -213,7 +214,7 @@ if df_variants_frequency is not None and df_intersect_with_dbsnp is not None and
     ### Analysis Overview
     <p>This dashboard provides insights into the genomic variants affecting {analysis_type.lower()} in GDC {cancer_type} cancer patients, analyzed using {data_source} Genomic Analysis Tool.
     The visualizations below display the distribution of these variants along with their predicted effects on regulatory elements based on DNABERT predictions.</p>
-    <p>In addition to variant distribution, this analysis includes <strong>clinical significance</strong> assessments based on correlations with known data from DBSNP and GWAS datasets. Survival analysis plots are also provided, offering a deeper understanding of the potential impacts of these genomic variations on patient outcomes.</p> 
+    <p>In addition to variant distribution, this analysis includes <strong>clinical significance</strong> assessments based on correlations with known data from DBSNP and ClinVar datasets. Survival analysis plots are also provided, offering a deeper understanding of the potential impacts of these genomic variations on patient outcomes.</p> 
     """
 
 
