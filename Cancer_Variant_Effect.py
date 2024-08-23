@@ -14,7 +14,7 @@ st.set_page_config(
     page_title="Predicting Somatic Variant Effect using DNABERT"
 )
 # Title of the app
-st.title("Predicting the Functional Impact of Somatic Mutations in Regulatory Elements in Brain Cancer Using DNABERT and DNABERT-2 ")
+st.title("Atlas of cancer somatic mutations that impact gene regulatory elements – application of DNABERT and DNABERT-2 on whole genome sequencing data.")
 
 # Sidebar for selecting analysis parameters
 st.sidebar.header("Select Analysis Parameters")
