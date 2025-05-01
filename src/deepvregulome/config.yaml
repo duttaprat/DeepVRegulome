@@ -1,0 +1,15 @@
+cancer_type: Brain
+
+vcf_folder_path: "/data/projects/GDC_Cancer_Wise/New_data/Brain/Downloaded_files/Somatic_VCF"
+
+reference_genome_path: "/data/projects/Resources/Gencode_genome_annotation/GRCh38.primary_assembly.genome.fa"
+
+chip_seq_base_path: "/data/projects/TFBS_Pallavi/1_1_pos_neg"
+
+output_base_path: "/data/projects/GDC_Cancer_Wise/New_data/Brain/Generated_files/Intersected_Data/Somatic/300bp_TFBS"
+
+pybedtools_temp: "/data/private/pdutta_new/pybedtools_temp"
+
+tfbs_model_list_folder: "/home/campus.stonybrook.edu/pdutta/Github/Postdoc/DNABERT_data_processing/TFBS/tfbs_list_folder/output_files"
+
+vcf_error_log_dir: "/data/projects/GDC_Cancer_Wise/Brain/Data"
