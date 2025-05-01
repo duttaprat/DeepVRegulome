@@ -20,9 +20,11 @@ DeepVRegulome/
 │       ├── CTCFL/
 │       └── ZNF384/
 ├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_results_analysis.ipynb
+│   ├── 01_parse_and_merge_vcfs.ipynb
+│   ├── 02_tfbs_intersection.ipynb
+│   |── 03_dnabert_input_generation.ipynb
+│   ├── 04_scoring_candidate_variants.ipynb.ipynb
+│   └── 05_tfbs_attention_motif_visualization.ipynb
 ├── scripts/
 │   ├── run_prediction_tfbs.sh
 │   └── run_prediction_splice_acceptor.sh
@@ -35,9 +37,6 @@ DeepVRegulome/
 │       └── config.yaml
 ├── streamlit_app/
 │   └── app_variant_clinical_dashboard.py
-├── tests/
-│   ├── test_data_loader.py
-│   └── test_model.py
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
