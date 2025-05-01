@@ -74,7 +74,7 @@ pip install -r requirements.txt
 | 7️⃣ | Browse results interactively | `streamlit_app/app_variant_clinical_dashboard.py` |
 
 
-##🧪 Example Outputs
+## 🧪 Example Outputs
   * Candidate variant count by TFBS
   * DNABERT attention heatmaps
   * High-impact motif shifts due to mutations
