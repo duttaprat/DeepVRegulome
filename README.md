@@ -23,7 +23,7 @@ DeepVRegulome/
 │   ├── 01_parse_and_merge_vcfs.ipynb
 │   ├── 02_tfbs_intersection.ipynb
 │   |── 03_dnabert_input_generation.ipynb
-│   ├── 04_scoring_candidate_variants.ipynb.ipynb
+│   ├── 04_scoring_candidate_variants.ipynb
 │   └── 05_tfbs_attention_motif_visualization.ipynb
 ├── scripts/
 │   ├── run_prediction_tfbs.sh
