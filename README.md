@@ -52,7 +52,7 @@ DeepVRegulome/
 └── .gitignore
 
 ```
-## Installation
+## 🧪 Installation
 ```bash
 git clone https://github.com/DavuluriLab//DeepVRegulome.git
 cd DeepVRegulome
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 | 7️⃣ | Browse results interactively | `streamlit_app/app_variant_clinical_dashboard.py` |
 
 
-## 🧪 Example Outputs
+## 📊 Example Outputs
   * Candidate variant count by TFBS
   * DNABERT attention heatmaps
   * High-impact motif shifts due to mutations
@@ -83,13 +83,13 @@ pip install -r requirements.txt
 See figures/attention/ for examples like CTCFL.
 
 
-## Live Demo
+## 🌐 Live Demo
 
 An interactive instance of the DeepVRegulome dashboard is hosted here:
 ➡️ **https://davuluri-lab-brainved.streamlit.app/**
 The deployed app lets you browse model performance metrics and variant-effect predictions without installing any software locally.
 
-## Model checkpoints
+## 🧬 Model Checkpoints
 Full DNABERT fine-tuned weights (acceptor, donor, and 700 TFBS models) will be deposited in Zenodo and made publicly available immediately upon journal acceptance.
 In the meantime, researchers may request access by emailing pratik.dutta@stonybrook.edu and ramana.davuluri@stonybrookmedicine.edu  with a brief statement of intended use.
 
@@ -98,5 +98,5 @@ If you use DeepVRegulome in your research, please cite:
 
 
 
-## Licence
+## 🧬 Model Checkpoints
 MIT. See [LICENSE](LICENSE) for details.
