@@ -1,4 +1,5 @@
 # DeepVRegulome
+![DeepVRegulome Pipeline](assets/flowchart.png)
 
 DeepVRegulome is an end‑to‑end framework for predicting the functional impact of small somatic variants in non‑coding regulatory regions (splice sites and transcription‑factor‑binding sites) using fine‑tuned DNABERT models.
 
