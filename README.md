@@ -10,19 +10,39 @@ DeepVRegulome is an end‑to‑end framework for predicting the functional impac
 
 ## Repository structure
 ```
-src/                 Core Python package
-  deepvregulome/
-    __init__.py
-    models.py        # model loading utilities
-    scoring.py       # Δp & log‑odds functions
-    data.py          # dataset loaders
-models/              Pre‑trained checkpoints or download script
-dashboard/           Streamlit app
-notebooks/           Example Jupyter notebooks
-data/                Sample input files (VCF, BED)
-docs/                Documentation stubs
-requirements.txt     Python dependencies
-setup.py             Install script (optional)
+DeepVRegulome/
+├── .devcontainer/
+├── .streamlit/
+├── data/
+│   └── Brain/
+├── figures/
+│   └── attention/
+│       ├── CTCFL/
+│       └── ZNF384/
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_model_training.ipynb
+│   └── 03_results_analysis.ipynb
+├── scripts/
+│   ├── run_prediction_tfbs.sh
+│   └── run_prediction_splice_acceptor.sh
+├── src/
+│   └── deepvregulome/
+│       ├── __init__.py
+│       ├── data_loader.py
+│       ├── model.py
+│       ├── utils.py
+│       └── config.yaml
+├── streamlit_app/
+│   └── app_variant_clinical_dashboard.py
+├── tests/
+│   ├── test_data_loader.py
+│   └── test_model.py
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── .gitignore
+
 ```
 ## Installation
 ```bash
