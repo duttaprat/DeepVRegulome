@@ -87,8 +87,8 @@ See figures/attention/ for examples like CTCFL.
 ## 🌐 Live Demo
 
 An interactive instance of the DeepVRegulome dashboard is hosted here:
-➡️ **[https://davuluri-lab-brainved.streamlit.app/]([https://deepvregulome.streamlit.app/](https://deepvregulome.streamlit.app/))**
-The deployed app lets you browse model performance metrics and variant-effect predictions without installing any software locally.
+➡️ [https://deepvregulome.streamlit.app/](https://deepvregulome.streamlit.app/)
+The deployed app allows you to explore model performance metrics and variant-effect predictions without the need to install any software locally.
 
 ## 🧬 Model Checkpoints
 Full DNABERT fine-tuned weights (acceptor, donor, and 700 TFBS models) will be deposited in Zenodo and made publicly available immediately upon journal acceptance.
